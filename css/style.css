@@ -3,29 +3,74 @@
     GENERAL DESIGN
     ==============
 */
+@font-face {
+    font-family: Nunito-Bold;
+    src: url("/assets/fonts/Nunito/static/Nunito-Bold.ttf");
+}
+
+@font-face {
+    font-family: Nunito-Regular;
+    src: url("/assets/fonts/Nunito/static/Nunito-Regular.ttf");
+}
+
+@font-face {
+    font-family: "PT Sans";
+    src: url("/assets/fonts/PT_Sans/PTSans-Regular.ttf");
+}
 
 /* WEBSITE HEADER */
-#website_header {
-
-}
+/*#website_header {*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    width: 100%;*/
+/*}*/
 
 #website_header_logo {
     width: 200px;
-    height: 120px;
+    height: 100px;
 }
 
 #website_header_logo img {
     width: 50%;
     height: auto;
 }
+
+/* CREATE SIDE-BY-SIDE COLUMN */
+.column {
+    float: left;
+}
+
+#website_left_sidebar {
+    width: 30%;
+}
+
+#website_form_content {
+    width: 60%;
+}
+
 /* WEBSITE SIDEBAR */
 #website_left_sidebar {
-    /* CREDIT: https://unsplash.com/@patresinger */
-    background-image: url("https://itmd-362-jreginaldo.github.io/project1/assets/images/sidebar/patrick-langwallner.jpg");
+    height: 100%;
+    padding-right: 50px;
+}
+
+#website_left_bg img {
+    width: 100%;
+    height: 100%;
 }
 
 /* WEBSITE FORM */
+#list_register_header {
+    font-family: Nunito-Bold, serif;
+}
 
+#list_register_desc {
+    font-family: "PT Sans", serif;
+}
+
+#list_register_info {
+    font-family: "PT Sans", serif;
+}
 /*
     ====================
     MEDIA SCREEN QUERIES
