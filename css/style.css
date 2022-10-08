@@ -4,6 +4,11 @@
     ==============
 */
 @font-face {
+    font-family: Nunito-Black;
+    src: url("/assets/fonts/Nunito/static/Nunito-Black.ttf");
+}
+
+@font-face {
     font-family: Nunito-Bold;
     src: url("/assets/fonts/Nunito/static/Nunito-Bold.ttf");
 }
@@ -19,11 +24,13 @@
 }
 
 /* WEBSITE HEADER */
-/*#website_header {*/
-/*    position: fixed;*/
-/*    top: 0;*/
-/*    width: 100%;*/
-/*}*/
+#website_header {
+    box-sizing: border-box;
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*width: 100%;*/
+}
+
 
 #website_header_logo {
     width: 200px;
@@ -49,6 +56,11 @@
 }
 
 /* WEBSITE SIDEBAR */
+#website_left_header {
+    box-sizing: border-box;
+    font-family: Nunito-Black, serif;
+}
+
 #website_left_sidebar {
     height: 100%;
     padding-right: 50px;
@@ -60,6 +72,10 @@
 }
 
 /* WEBSITE FORM */
+#website_form_content {
+    box-sizing: border-box;
+}
+
 #list_register_header {
     font-family: Nunito-Bold, serif;
 }
@@ -69,6 +85,10 @@
 }
 
 #list_register_info {
+    font-family: "PT Sans", serif;
+}
+
+#website_form_inputs {
     font-family: "PT Sans", serif;
 }
 /*
