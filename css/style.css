@@ -5,22 +5,26 @@
 */
 @font-face {
     font-family: Nunito-Black;
-    src: url("../project1/assets/fonts/Nunito/static/Nunito-Black.ttf");
+    src: url("/assets/fonts/Nunito/static/Nunito-Black.ttf");
+    /*src: url("https://itmd-362-jreginaldo.github.io/project1/assets/fonts/Nunito/static/Nunito-Black.ttf");*/
 }
 
 @font-face {
     font-family: Nunito-Bold;
-    src: url("../project1/assets/fonts/Nunito/static/Nunito-Bold.ttf");
+    src: url("/assets/fonts/Nunito/static/Nunito-Bold.ttf");
+    /*src: url("https://itmd-362-jreginaldo.github.io/project1/assets/fonts/Nunito/static/Nunito-Bold.ttf");*/
 }
 
 @font-face {
     font-family: Nunito-Regular;
-    src: url("../project1/assets/fonts/Nunito/static/Nunito-Regular.ttf");
+    src: url("/assets/fonts/Nunito/static/Nunito-Regular.ttf");
+    /*src: url("https://itmd-362-jreginaldo.github.io/project1/assets/fonts/Nunito/static/Nunito-Regular.ttf");*/
 }
 
 @font-face {
     font-family: "PT Sans";
-    src: url("../project1/assets/fonts/PT_Sans/PTSans-Regular.ttf");
+    src: url("/assets/fonts/PT_Sans/PTSans-Regular.ttf");
+    /*src: url("https://itmd-362-jreginaldo.github.io/project1/assets/fonts/PT_Sans/PTSans-Regular.ttf");*/
 }
 
 /* WEBSITE HEADER */
