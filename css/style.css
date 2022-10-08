@@ -101,12 +101,9 @@
     ====================
 */
 
-/* MOBILE PORTRAIT */
+/* MOBILE */
 @media only screen
-and (max-device-width: 390px)
-and (max-device-height: 844px)
-and (orientation: portrait)
-and (-webkit-min-device-pixel-ratio: 2){
+and (max-width: 600px) {
     #website_header {
         display: none;
     }
@@ -118,15 +115,23 @@ and (-webkit-min-device-pixel-ratio: 2){
 
 /* TABLET */
 @media only screen
-and (min-device-width: 1180px)
-and (min-device-height: 820px)
-and (orientation: portrait)
-and (-webkit-min-device-pixel-ratio: 2) {
+and (min-width: 768px) {
+    #website_header {
+        display: none;
+    }
+}
+
+/* LARGE DEVICES */
+@media only screen
+and (min-width: 992px) {
     #website_header {
         display: block;
     }
+}
 
-    #website_left_sidebar {
+@media only screen
+and (min-width: 1200px){
+    #website_header {
         display: block;
     }
 }
