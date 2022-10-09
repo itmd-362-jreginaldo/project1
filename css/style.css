@@ -3,6 +3,10 @@
     GENERAL DESIGN
     ==============
 */
+* {
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: Nunito-Black;
     src: url("../assets/fonts/Nunito/static/Nunito-Black.ttf");
@@ -27,39 +31,28 @@
     /*src: url("https://itmd-362-jreginaldo.github.io/project1/assets/fonts/PT_Sans/PTSans-Regular.ttf");*/
 }
 
-/* WEBSITE HEADER */
-#website_header {
-    box-sizing: border-box;
-    /*position: fixed;*/
-    /*top: 0;*/
-    /*width: 100%;*/
-}
-
-#website_header_logo {
-    width: 200px;
+/* WEBSITE LOGO */
+#header_logo {
+    width: 100px;
     height: 100px;
-}
-
-#website_header_logo img {
-    width: 50%;
-    height: auto;
 }
 
 /* CREATE SIDE-BY-SIDE COLUMN */
 .column {
     float: left;
-    height: 100vh;
 }
 
 #website_left_sidebar {
-    width: 35%;
+    width: 40%;
 }
 
 #website_form_content {
-    width: 60%;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
-/* WEBSITE SIDEBAR */
+/* WEBSITE LEFT SIDEBAR */
 #website_left_sidebar {
     position: relative;
     background-color: #edede9;
@@ -67,10 +60,10 @@
 
 #website_left_sidebar img {
     display: block;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-    height: auto;
 }
 
 #website_left_header {
@@ -88,11 +81,13 @@
 
 #list_register_header {
     font-family: Nunito-Bold, serif;
-    font-size: 200%;
+    font-size: 300%;
+    margin-bottom: 5%;
 }
 
 #list_register_desc {
     font-family: "PT Sans", serif;
+    font-size: 125%;
 }
 
 #list_register_info {
@@ -134,10 +129,6 @@
 */
 
 /* MOBILE */
-/*
-    People on their mobile devices are usually on-the-move and less likely to take the time
-    to fill every single field. Which is why F/L name and confirm pass input was removed
-*/
 @media only screen
 and (max-width: 600px) {
     #website_header {
