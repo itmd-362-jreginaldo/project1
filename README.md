@@ -10,3 +10,8 @@ for whatever it is you’re offering
 ## Website:
 ### Scribble
 My website will be a company providing an ease-of-use and convenient note-taking experience.
+
+## Resources Used:
+[Font Pair](https://www.fontpair.co/) - Nunito / PT Sans pair  
+[Coolors](https://coolors.co/?home) - Color ideas  
+[Shopify Free Logo Generator](https://www.shopify.com/tools/logo-maker) - Scribble logo  
