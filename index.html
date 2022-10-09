@@ -9,26 +9,19 @@
   <script async src="js/project1.interactive.js"></script>
 </head>
 <body>
-  <div id="website_header">
-    <header>
-      <div id="website_header_logo">
-        <img src="assets/images/logo/scribble_transparent.png" alt="headerLogo" id="header_logo">
-      </div>
-      <div id="website_header_register">
-      
-      </div>
-    </header>
-  </div>
+<!--  <div id="website_header">-->
+<!--    <header>-->
+<!--      <div id="website_header_logo">-->
+<!--        <img src="assets/images/logo/scribble_transparent.png" alt="headerLogo" id="header_logo">-->
+<!--      </div>-->
+<!--    </header>-->
+<!--  </div>-->
   <div class="column" id="website_left_sidebar">
-    <aside>
-      <div id="website_left_header">
-        <p>#1 Note-taking app for home, school, and business</p>
-      </div>
-      <div id="website_left_bg">
-        <!-- CREDIT: https://unsplash.com/@stilclassis -->
-        <img src="assets/images/sidebar/marissa-grootes.jpg" alt="sidebar_bg_image">
-      </div>
-    </aside>
+    <div id="website_left_header">
+      <p>#1 Note-taking app</p>
+      <p>for home, school, and business</p>
+    </div>
+    <img id="website_left_bg" src="assets/images/sidebar/marissa-grootes.jpg" alt="sidebar_bg_image">
   </div>
   <div class="column" id="website_form_content">
     <main>
@@ -61,7 +54,7 @@
             <label for="password_input"></label>
             <input type="password" name="passwordInput" id="password_input" placeholder="Password">
           </p>
-          <p class="row3_input">
+          <p class="row3_input" id="p_conf_password">
             <label for="conf_password_input"></label>
             <input type="password" name="confPasswordInput" id="conf_password_input" placeholder="Confirm Password">
           </p>
