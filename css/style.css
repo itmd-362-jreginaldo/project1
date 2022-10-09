@@ -48,10 +48,11 @@
 /* CREATE SIDE-BY-SIDE COLUMN */
 .column {
     float: left;
+    height: 100vh;
 }
 
 #website_left_sidebar {
-    width: 30%;
+    width: 35%;
 }
 
 #website_form_content {
@@ -59,19 +60,25 @@
 }
 
 /* WEBSITE SIDEBAR */
+#website_left_sidebar {
+    position: relative;
+    background-color: #edede9;
+}
+
+#website_left_sidebar img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: auto;
+}
+
 #website_left_header {
     box-sizing: border-box;
     font-family: Nunito-Black, serif;
-}
-
-#website_left_sidebar {
-    height: 100%;
-    padding-right: 50px;
-}
-
-#website_left_bg img {
-    width: 100%;
-    height: 100%;
+    position: absolute;
+    top: 16%;
+    left: 15%;
 }
 
 /* WEBSITE FORM */
@@ -81,6 +88,7 @@
 
 #list_register_header {
     font-family: Nunito-Bold, serif;
+    font-size: 200%;
 }
 
 #list_register_desc {
@@ -110,14 +118,13 @@
     grid-column: 1/3;
 }
 
-#form p {
-    box-sizing: border-box;
-    white-space: pre-line;
-}
-
-.checkbox_input {
+.checkbox_input { /* Align text next to checkbox */
     display: flex;
     align-items: center;
+}
+
+.checkbox_input label {
+    padding-left: 5px;
 }
 
 /*
@@ -127,6 +134,10 @@
 */
 
 /* MOBILE */
+/*
+    People on their mobile devices are usually on-the-move and less likely to take the time
+    to fill every single field. Which is why F/L name and confirm pass input was removed
+*/
 @media only screen
 and (max-width: 600px) {
     #website_header {
@@ -134,6 +145,14 @@ and (max-width: 600px) {
     }
 
     #website_left_sidebar {
+        display: none;
+    }
+
+    #p_conf_password {
+        display: none;
+    }
+
+    .row1_input {
         display: none;
     }
 }
