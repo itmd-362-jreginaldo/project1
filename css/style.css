@@ -84,13 +84,16 @@
 
 #list_register_desc {
     font-family: Nunito-Bold, serif;
-    font-size: 125%;
+    font-size: 130%;
     margin-bottom: 5%;
+    max-width: 65%;
 }
 
 #list_register_get_info {
     font-family: "PT Sans", serif;
     margin-bottom: 5px;
+    font-size: 120%;
+    max-width: 65%;
 }
 
 #website_form_inputs {
@@ -107,12 +110,6 @@
     grid-template-columns: 2fr 2fr;
     grid-column-gap: 100px;
     grid-row-gap: 10px;
-}
-
-#submit_button label button {
-    width: 100%;
-    height: 125%;
-    cursor: pointer;
 }
 
 .input_full_width {
@@ -154,6 +151,12 @@ and (max-width: 600px) {
     .row1_input {
         display: none;
     }
+
+    #submit_button label button {
+        width: 50%;
+        height: 125%;
+        cursor: pointer;
+    }
 }
 
 /* TABLET */
@@ -192,6 +195,12 @@ and (min-width: 768px) {
 
     #website_form_header ul {
         margin-top: -5%;
+    }
+
+    #submit_button label button {
+        width: 100%;
+        height: 125%;
+        cursor: pointer;
     }
 }
 
@@ -233,6 +242,12 @@ and (min-width: 992px) {
     #website_form_header ul {
         margin-top: -5%;
     }
+
+    #submit_button label button {
+        width: 100%;
+        height: 125%;
+        cursor: pointer;
+    }
 }
 
 @media only screen
@@ -271,5 +286,11 @@ and (min-width: 1200px){
 
     #website_form_header ul {
         margin-top: -5%;
+    }
+
+    #submit_button label button {
+        width: 100%;
+        height: 125%;
+        cursor: pointer;
     }
 }
