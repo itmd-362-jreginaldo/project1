@@ -31,12 +31,6 @@
     /*src: url("https://itmd-362-jreginaldo.github.io/project1/assets/fonts/PT_Sans/PTSans-Regular.ttf");*/
 }
 
-/* WEBSITE LOGO */
-#header_logo {
-    width: 100px;
-    height: 100px;
-}
-
 /* CREATE SIDE-BY-SIDE COLUMN */
 .column {
     float: left;
@@ -48,14 +42,13 @@
 
 #website_form_content {
     width: 50%;
-    margin-left: 5%;
-    margin-top: 5%;
+    padding-left: 5%;
+    padding-top: 6%;
 }
 
 /* WEBSITE LEFT SIDEBAR */
 #website_left_sidebar {
     position: relative;
-    background-color: #edede9;
 }
 
 #website_left_sidebar img {
@@ -63,15 +56,26 @@
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 90%;
+    border-radius: 30px;
+    padding-top: .5%;
 }
 
 #website_left_header {
     box-sizing: border-box;
     font-family: Nunito-Black, serif;
     position: absolute;
-    top: 16%;
-    left: 15%;
+    top: 12%;
+    left: 12%;
+    max-width: 50%;
+}
+
+#header_number {
+    font-size: 300%;
+}
+
+#header_sub_text {
+    font-size: 150%;
 }
 
 /* WEBSITE FORM */
@@ -80,18 +84,19 @@
 }
 
 #list_register_header {
-    font-family: Nunito-Bold, serif;
+    font-family: Nunito-Black, serif;
     font-size: 300%;
-    margin-bottom: 5%;
 }
 
 #list_register_desc {
-    font-family: "PT Sans", serif;
+    font-family: Nunito-Bold, serif;
     font-size: 125%;
+    margin-bottom: 5%;
 }
 
-#list_register_info {
+#list_register_get_info {
     font-family: "PT Sans", serif;
+    margin-bottom: 5px;
 }
 
 #website_form_inputs {
@@ -131,14 +136,12 @@
 /* MOBILE */
 @media only screen
 and (max-width: 600px) {
-    #website_header {
-        display: none;
-    }
-
+    /* WEBSITE LEFT SIDE BAR */
     #website_left_sidebar {
         display: none;
     }
 
+    /* WEBSITE FORM */
     #p_conf_password {
         display: none;
     }
@@ -151,22 +154,79 @@ and (max-width: 600px) {
 /* TABLET */
 @media only screen
 and (min-width: 768px) {
-    #website_header {
-        display: none;
+    /* WEBSITE LEFT SIDE BAR */
+    #website_left_header {
+        box-sizing: border-box;
+        font-family: Nunito-Black, serif;
+        position: absolute;
+        top: 37%;
+        left: 15%;
+        max-width: 50%;
+    }
+
+    #website_left_sidebar img {
+        display: block;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        border-radius: 30px;
+        margin-top: 50%;
     }
 }
 
 /* LARGE DEVICES */
 @media only screen
 and (min-width: 992px) {
-    #website_header {
+    /* WEBSITE LEFT SIDE BAR */
+    #website_left_header {
+        box-sizing: border-box;
+        font-family: Nunito-Black, serif;
+        position: absolute;
+        top: 21%;
+        left: 12%;
+        max-width: 50%;
+    }
+
+    #website_left_sidebar img {
         display: block;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        border-radius: 30px;
+        margin-top: 15%;
+        padding-top: .5%;
     }
 }
 
 @media only screen
 and (min-width: 1200px){
-    #website_header {
+    /* WEBSITE LEFT SIDE BAR */
+    #website_left_header {
+        box-sizing: border-box;
+        font-family: Nunito-Black, serif;
+        position: absolute;
+        top: 12%;
+        left: 12%;
+        max-width: 50%;
+    }
+
+    #website_left_sidebar img {
         display: block;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        border-radius: 30px;
+        margin-top: .5%;
+        padding-top: .5%;
+    }
+
+    /* WEBSITE FORM */
+    #website_form_content {
+        width: 50%;
+        padding-left: 5%;
+        padding-top: 6%;
     }
 }
