@@ -15,3 +15,4 @@ My website will be a company providing an ease-of-use and convenient note-taking
 [Font Pair](https://www.fontpair.co/) - Nunito / PT Sans pair  
 [Coolors](https://coolors.co/?home) - Color ideas  
 [Shopify Free Logo Generator](https://www.shopify.com/tools/logo-maker) - Scribble logo  
+[Mobile First](https://www.webmobilefirst.com/en/) - Mobile device emulator for desktops  
