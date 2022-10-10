@@ -31,7 +31,7 @@
     /*src: url("https://itmd-362-jreginaldo.github.io/project1/assets/fonts/PT_Sans/PTSans-Regular.ttf");*/
 }
 
-/* CREATE SIDE-BY-SIDE COLUMN */
+/* ===== CREATE SIDE-BY-SIDE COLUMN ===== */
 .column {
     float: left;
 }
@@ -40,19 +40,16 @@
     width: 40%;
 }
 
-/* WEBSITE LEFT SIDEBAR */
-#website_left_sidebar {
-    position: relative;
+#website_form_content {
+    width: 50%;
+    padding-left: 5%;
+    padding-top: .5%;
 }
 
-#website_left_sidebar img {
-    display: block;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    border-radius: 30px;
-    padding-top: .5%;
+/* ===== WEBSITE LEFT SIDEBAR ===== */
+
+#website_left_sidebar {
+    position: relative;
 }
 
 #website_left_header {
@@ -72,29 +69,13 @@
     font-size: 150%;
 }
 
-/* WEBSITE FORM */
-#website_form_content {
-    box-sizing: border-box;
-}
-
+/* ===== WEBSITE FORM ===== */
 #header_logo {
     width: 45%;
 }
 
-#website_form_content {
-    width: 50%;
-    padding-left: 5%;
-    padding-top: .5%;
-}
-
 #website_form_header ul {
     margin-top: -5%;
-}
-
-#submit_button label button {
-    width: 130%;
-    height: 125%;
-    cursor: pointer;
 }
 
 #list_register_header {
@@ -105,17 +86,19 @@
 #list_register_desc {
     font-family: Nunito-Bold, serif;
     font-size: 130%;
+    margin-top: 1%;
     margin-bottom: 5%;
     max-width: 65%;
 }
 
 #list_register_get_info {
     font-family: "PT Sans", serif;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     font-size: 120%;
     max-width: 65%;
 }
 
+/* ===== WEBSITE FORM CONTENTS ===== */
 #website_form_inputs {
     font-family: "PT Sans", serif;
 }
@@ -129,7 +112,7 @@
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-column-gap: 100px;
-    grid-row-gap: 10px;
+    grid-row-gap: 15px;
 }
 
 .text_input {
@@ -149,13 +132,28 @@
     padding-left: 5px;
 }
 
+#submit_button label button {
+    cursor: pointer;
+    width: 130%;
+    height: 125%;
+    border-radius: 20px;
+    border: 1px solid #FF4B2B;
+    background-color: #FF4B2B;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Nunito-Bold, serif;
+    padding: 10px 35px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
 /*
     ====================
     MEDIA SCREEN QUERIES
     ====================
 */
 
-/* MOBILE */
+/* ===== MOBILE ===== */
 @media only screen
 and (max-width: 600px) {
     /* WEBSITE LEFT SIDE BAR */
@@ -163,29 +161,67 @@ and (max-width: 600px) {
         display: none;
     }
 
-    /* WEBSITE FORM */
-    #header_logo {
-        width: 50%;
+    /* ===== CREATE SIDE-BY-SIDE COLUMN ===== */
+    .column {
+        float: left;
+    }
+
+    #website_left_sidebar {
+        width: 0;
     }
 
     #website_form_content {
-        width: 50%;
+        width: 100%;
         padding-left: 5%;
         padding-top: .5%;
+    }
+
+    /* WEBSITE FORM */
+    #header_logo {
+        width: 100%;
     }
 
     #website_form_header ul {
         margin-top: -5%;
     }
 
+    #list_register_header {
+        font-family: Nunito-Black, serif;
+        font-size: 300%;
+    }
+
+    #list_register_desc {
+        font-family: Nunito-Bold, serif;
+        font-size: 130%;
+        margin-top: 1%;
+        margin-bottom: 5%;
+        max-width: 100%;
+    }
+
+    #list_register_get_info {
+        font-family: "PT Sans", serif;
+        margin-bottom: 15px;
+        font-size: 120%;
+        max-width: 100%;
+    }
+
     #submit_button label button {
-        width: 100%;
+        width: 130%;
         height: 125%;
-        cursor: pointer;
+        border-radius: 20px;
+        border: 1px solid #FF4B2B;
+        background-color: #FF4B2B;
+        color: #FFFFFF;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: Nunito-Bold, serif;
+        padding: 5px 35px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
     }
 }
 
-/* TABLET */
+/* ===== TABLET ===== */
 @media only screen
 and (min-width: 768px) {
     /* WEBSITE LEFT SIDE BAR */
@@ -204,14 +240,15 @@ and (min-width: 768px) {
         margin-left: auto;
         margin-right: auto;
         width: 90%;
-        border-radius: 30px;
-        margin-top: 50%;
+        border-radius: 75px;
+        margin-top: .5%;
+        padding-top: .5%;
     }
 
     /* WEBSITE FORM */
 }
 
-/* LARGE DEVICES */
+/* ===== LARGE DEVICES ====== */
 @media only screen
 and (min-width: 992px) {
     /* WEBSITE LEFT SIDE BAR */
@@ -230,8 +267,8 @@ and (min-width: 992px) {
         margin-left: auto;
         margin-right: auto;
         width: 90%;
-        border-radius: 30px;
-        margin-top: 15%;
+        border-radius: 75px;
+        margin-top: .5%;
         padding-top: .5%;
     }
 
@@ -256,7 +293,7 @@ and (min-width: 1200px){
         margin-left: auto;
         margin-right: auto;
         width: 90%;
-        border-radius: 30px;
+        border-radius: 75px;
         margin-top: .5%;
         padding-top: .5%;
     }
