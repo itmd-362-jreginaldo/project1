@@ -61,6 +61,17 @@
     max-width: 50%;
 }
 
+#website_left_sidebar img {
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-radius: 75px;
+    margin-top: .5%;
+    padding-top: .5%;
+}
+
 #header_number {
     font-size: 300%;
 }
@@ -234,17 +245,6 @@ and (min-width: 768px) {
         max-width: 50%;
     }
 
-    #website_left_sidebar img {
-        display: block;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-        width: 90%;
-        border-radius: 75px;
-        margin-top: .5%;
-        padding-top: .5%;
-    }
-
     /* WEBSITE FORM */
 }
 
@@ -261,17 +261,6 @@ and (min-width: 992px) {
         max-width: 50%;
     }
 
-    #website_left_sidebar img {
-        display: block;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-        width: 90%;
-        border-radius: 75px;
-        margin-top: .5%;
-        padding-top: .5%;
-    }
-
     /* WEBSITE FORM */
 }
 
@@ -285,17 +274,6 @@ and (min-width: 1200px){
         top: 14%;
         left: 13%;
         max-width: 50%;
-    }
-
-    #website_left_sidebar img {
-        display: block;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-        width: 90%;
-        border-radius: 75px;
-        margin-top: .5%;
-        padding-top: .5%;
     }
 
     /* WEBSITE FORM */
