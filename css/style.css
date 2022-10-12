@@ -80,6 +80,10 @@
 }
 
 /* ===== WEBSITE FORM ===== */
+#header_logo_container {
+    max-width: 65%;
+}
+
 #header_logo {
     width: 45%;
 }
@@ -91,6 +95,7 @@
 #list_register_header {
     font-family: Nunito-Black, serif;
     font-size: 300%;
+    max-width: 65%;
 }
 
 #list_register_desc {
@@ -127,6 +132,10 @@
 
 .text_input {
     width: 185%;
+}
+
+#show_pass_box_container {
+    margin-bottom: 10%;
 }
 
 .input_full_width {
@@ -222,6 +231,10 @@ and (max-width: 600px) {
         grid-row-gap: 10px;
     }
 
+    #show_pass_box_container {
+        margin-bottom: 0;
+    }
+
     #submit_button label button {
         width: 130%;
         height: 125%;
@@ -252,9 +265,6 @@ and (min-width: 768px) {
     }
 
     /* WEBSITE FORM */
-    #form {
-        width: 150%;
-    }
 }
 
 /* ===== LARGE DEVICES ====== */
@@ -271,9 +281,6 @@ and (min-width: 992px) {
     }
 
     /* WEBSITE FORM */
-    #form {
-        width: 150%;
-    }
 }
 
 @media only screen
