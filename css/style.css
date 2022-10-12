@@ -47,7 +47,6 @@
 }
 
 /* ===== WEBSITE LEFT SIDEBAR ===== */
-
 #website_left_sidebar {
     position: relative;
 }
@@ -69,7 +68,7 @@
     width: 90%;
     border-radius: 75px;
     margin-top: .5%;
-    padding-top: .5%;
+    padding-top: .25%;
 }
 
 #header_number {
@@ -86,7 +85,7 @@
 }
 
 #website_form_header ul {
-    margin-top: -5%;
+    margin-top: 2.5%;
 }
 
 #list_register_header {
@@ -158,6 +157,7 @@
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+
 /*
     ====================
     MEDIA SCREEN QUERIES
@@ -189,11 +189,12 @@ and (max-width: 600px) {
 
     /* WEBSITE FORM */
     #header_logo {
-        width: 100%;
+        width: 90%;
+        padding-top: 1.5%;
     }
 
     #website_form_header ul {
-        margin-top: -5%;
+        margin-top: 1.5%;
     }
 
     #list_register_header {
@@ -214,6 +215,11 @@ and (max-width: 600px) {
         margin-bottom: 15px;
         font-size: 120%;
         max-width: 100%;
+    }
+
+    #form {
+        width: 150%;
+        grid-row-gap: 10px;
     }
 
     #submit_button label button {
@@ -246,6 +252,9 @@ and (min-width: 768px) {
     }
 
     /* WEBSITE FORM */
+    #form {
+        width: 150%;
+    }
 }
 
 /* ===== LARGE DEVICES ====== */
@@ -262,6 +271,9 @@ and (min-width: 992px) {
     }
 
     /* WEBSITE FORM */
+    #form {
+        width: 150%;
+    }
 }
 
 @media only screen
