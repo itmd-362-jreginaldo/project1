@@ -10,25 +10,21 @@
 @font-face {
     font-family: Nunito-Black;
     src: url("../assets/fonts/Nunito/static/Nunito-Black.ttf");
-    /*src: url("https://itmd-362-jreginaldo.github.io/project1/assets/fonts/Nunito/static/Nunito-Black.ttf");*/
 }
 
 @font-face {
     font-family: Nunito-Bold;
     src: url("../assets/fonts/Nunito/static/Nunito-Bold.ttf");
-    /*src: url("https://itmd-362-jreginaldo.github.io/project1/assets/fonts/Nunito/static/Nunito-Bold.ttf");*/
 }
 
 @font-face {
     font-family: Nunito-Regular;
     src: url("../assets/fonts/Nunito/static/Nunito-Regular.ttf");
-    /*src: url("https://itmd-362-jreginaldo.github.io/project1/assets/fonts/Nunito/static/Nunito-Regular.ttf");*/
 }
 
 @font-face {
     font-family: "PT Sans";
     src: url("../assets/fonts/PT_Sans/PTSans-Regular.ttf");
-    /*src: url("https://itmd-362-jreginaldo.github.io/project1/assets/fonts/PT_Sans/PTSans-Regular.ttf");*/
 }
 
 /* ===== CREATE SIDE-BY-SIDE COLUMN ===== */
@@ -102,7 +98,7 @@
     font-family: Nunito-Bold, serif;
     font-size: 130%;
     margin-top: 1%;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
     max-width: 65%;
 }
 
@@ -259,9 +255,9 @@ and (min-width: 768px) {
         box-sizing: border-box;
         font-family: Nunito-Black, serif;
         position: absolute;
-        top: 37%;
+        top: 8%;
         left: 15%;
-        max-width: 50%;
+        max-width: 75%;
     }
 
     /* WEBSITE FORM */
@@ -275,7 +271,7 @@ and (min-width: 992px) {
         box-sizing: border-box;
         font-family: Nunito-Black, serif;
         position: absolute;
-        top: 21%;
+        top: 11%;
         left: 12%;
         max-width: 50%;
     }
