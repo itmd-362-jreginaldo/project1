@@ -49,7 +49,7 @@
 
 #website_left_header {
     box-sizing: border-box;
-    font-family: Nunito-Black, serif;
+    font-family: Nunito-Black, Verdana, serif;
     position: absolute;
     top: 12%;
     left: 18%;
@@ -78,13 +78,13 @@
 }
 
 #list_register_header {
-    font-family: Nunito-Black, serif;
+    font-family: Nunito-Black, Verdana, serif;
     font-size: 300%;
     max-width: 65%;
 }
 
 #list_register_desc {
-    font-family: Nunito-Bold, serif;
+    font-family: Nunito-Bold, Verdana, serif;
     font-size: 130%;
     margin-top: 1%;
     margin-bottom: 7%;
@@ -92,7 +92,7 @@
 }
 
 #list_register_get_info {
-    font-family: "PT Sans", serif;
+    font-family: "PT Sans", Verdana, serif;
     margin-bottom: 15px;
     font-size: 120%;
     max-width: 65%;
@@ -100,7 +100,7 @@
 
 /* ===== WEBSITE FORM CONTENTS ===== */
 #website_form_inputs {
-    font-family: "PT Sans", serif;
+    font-family: "PT Sans", Verdana, serif;
 }
 
 #website_form_inputs { /* Create 2 columns of input */
@@ -146,7 +146,7 @@
     color: #FFFFFF;
     font-size: 12px;
     font-weight: bold;
-    font-family: Nunito-Bold, serif;
+    font-family: Nunito-Bold, Verdana, serif;
     padding: 10px 35px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -190,12 +190,12 @@ and (max-width: 900px) {
     }
 
     #list_register_header {
-        font-family: Nunito-Black, serif;
+        font-family: Nunito-Black, Verdana, serif;
         font-size: 300%;
     }
 
     #list_register_desc {
-        font-family: Nunito-Bold, serif;
+        font-family: Nunito-Bold, Verdana, serif;
         font-size: 130%;
         margin-top: 1%;
         margin-bottom: 5%;
@@ -203,7 +203,7 @@ and (max-width: 900px) {
     }
 
     #list_register_get_info {
-        font-family: "PT Sans", serif;
+        font-family: "PT Sans", Verdana, serif;
         margin-bottom: 15px;
         font-size: 120%;
         max-width: 100%;
@@ -227,7 +227,7 @@ and (max-width: 900px) {
         color: #FFFFFF;
         font-size: 12px;
         font-weight: bold;
-        font-family: Nunito-Bold, serif;
+        font-family: Nunito-Bold, Verdana, serif;
         padding: 5px 35px;
         letter-spacing: 1px;
         text-transform: uppercase;
