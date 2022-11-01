@@ -4,12 +4,12 @@
     ============================
 */
 :root {
-    --step-up-two-half: 3.330em;
+    --step-up-two-half: 3.330em; /* Max Header Size */
     --step-up-two: 2.620em;
     --step-up-one-half: 2.058em;
     --step-up-one: 1.618em;
-    --step-up-half: 1.272em;
-    /* baseline: 1em */
+    --step-up-half: 1.272em; /* Current Baseline*/
+    /* Origin Baseline: 1em */
     --step-down-half: 0.786em;
     --step-down-one: 0.618em;
     --step-down-one-half: 0.486em;
@@ -56,7 +56,7 @@
 }
 
 #website_form_content {
-    width: 50%;
+    width: 60%;
     padding-left: 5%;
     padding-top: .5%;
 }
@@ -76,11 +76,11 @@
 }
 
 #header_number {
-    font-size: 300%;
+    font-size: var(--step-up-two-half);
 }
 
 #header_sub_text {
-    font-size: 150%;
+    font-size: var(--step-up-one);
 }
 
 /* ===== WEBSITE FORM ===== */
@@ -98,13 +98,13 @@
 
 #list_register_header {
     font-family: Nunito-Black, Verdana, serif;
-    font-size: 300%;
+    font-size: var(--step-up-two-half);
     max-width: 65%;
 }
 
 #list_register_desc {
     font-family: Nunito-Bold, Verdana, serif;
-    font-size: 130%;
+    font-size: var(--step-up-one);
     margin-top: 1%;
     margin-bottom: 7%;
     max-width: 65%;
@@ -112,14 +112,15 @@
 
 #list_register_get_info {
     font-family: "PT Sans", Verdana, serif;
+    font-size: var(--step-up-half); /* BASE FONT SIZE */
     margin-bottom: 15px;
-    font-size: 120%;
     max-width: 65%;
 }
 
 /* ===== WEBSITE FORM CONTENTS ===== */
 #website_form_inputs {
     font-family: "PT Sans", Verdana, serif;
+    max-width: 100%;
 }
 
 #website_form_inputs { /* Create 2 columns of input */
@@ -132,6 +133,7 @@
     grid-template-columns: 2fr 2fr;
     grid-column-gap: 40%;
     grid-row-gap: 15px;
+    font-size: var(--step-up-half);
 }
 
 .text_input {
@@ -147,6 +149,7 @@
 }
 
 .checkbox_input { /* Align text next to checkbox */
+    font-size: var(--step-up-half);
     display: flex;
     align-items: center;
 }
@@ -163,7 +166,7 @@
     border: 1px solid #FF4B2B;
     background-color: #FF4B2B;
     color: #FFFFFF;
-    font-size: 12px;
+    font-size: var(--step-up-half);
     font-weight: bold;
     font-family: Nunito-Bold, Verdana, serif;
     padding: 10px 35px;
@@ -177,7 +180,7 @@
     ====================
 */
 @media only screen
-and (max-width: 900px) {
+and (max-width: 999px) {
     /* ===== WEBSITE LEFT SIDE BAR ===== */
     #website_left_sidebar {
         display: none;
@@ -244,7 +247,7 @@ and (max-width: 900px) {
         border: 1px solid #FF4B2B;
         background-color: #FF4B2B;
         color: #FFFFFF;
-        font-size: 12px;
+        font-size: 1em;
         font-weight: bold;
         font-family: Nunito-Bold, Verdana, serif;
         padding: 5px 35px;
@@ -254,7 +257,7 @@ and (max-width: 900px) {
 }
 
 @media only screen
-and (min-width: 901px) {
+and (min-width: 1000px) {
     /* ===== WEBSITE LEFT SIDE BAR ===== */
     #website_left_sidebar img {
         display: block;
